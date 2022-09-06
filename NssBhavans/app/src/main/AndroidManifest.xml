@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nssbhavans">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NssBhavans">
+        <activity android:name=".UsersDataActivity"></activity>
+        <activity android:name=".NotificationActivtiy" />
+        <activity android:name=".CampGallery" />
+        <activity android:name=".BlanketGallery" />
+        <activity android:name=".DiabetesGallery" />
+        <activity android:name=".AidsGallary" />
+        <activity android:name=".MalariaGallery" />
+        <activity android:name=".OrangedayGallery" />
+        <activity android:name=".FarmersDallery" />
+        <activity android:name=".OrientationGallery" />
+        <activity android:name=".UgcGallery" />
+        <activity android:name=".OrphanageGallery" />
+        <activity android:name=".CycleGallery" />
+        <activity android:name=".RepublicGallery" />
+        <activity android:name=".NaacPeerTeamgallery" />
+        <activity android:name=".FireSafetyGallery" />
+        <activity android:name=".ConsitutionGallery" />
+        <activity android:name=".GreenweekGallery" />
+        <activity android:name=".FullscreenActivity" />
+        <activity android:name=".CycleAndNutritionActivity" />
+        <activity android:name=".PoshanPhakwada" />
+        <activity android:name=".UgcExpertCommitte" />
+        <activity android:name=".OrphanVisitActivity" />
+        <activity android:name=".RepublicDayActivity" />
+        <activity android:name=".NaacActivity" />
+        <activity android:name=".FarmerDayActivity" />
+        <activity android:name=".FireSafetyActivity" />
+        <activity android:name=".OrientationDayActivity" />
+        <activity android:name=".ConstitutionDayActivity" />
+        <activity android:name=".GreenWeekActivity" />
+        <activity android:name=".BathukammaActivity" />
+        <activity android:name=".BlanketDriveActivity" />
+        <activity android:name=".VaccineDriveActivity" />
+        <activity android:name=".BloodDriveActivity" />
+        <activity android:name=".MalariarallyActivity" />
+        <activity android:name=".DiabetesrallyActivity" />
+        <activity android:name=".OrangeRallyActivity" />
+        <activity android:name=".AidsRallyActivity" />
+        <activity android:name=".SpecialCampActivity" />
+        <activity android:name=".NssActivities" />
+        <activity android:name=".DriveActivity" />
+        <activity android:name=".RallyActivity" />
+        <activity android:name=".CampActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".VaccinationGalleryActivity" />
+        <activity android:name=".BloodDonationGalleryActivity" />
+        <activity android:name=".CoordinatorpanelActivity" />
+        <activity android:name=".DecisionActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SportsActivity" />
+        <activity android:name=".Aboutactivity" />
+        <activity android:name=".Adminpanel" />
+        <activity android:name=".CulturalActivity" />
+        <activity android:name=".DigitalActivity" />
+        <activity android:name=".DocumentationActivity" />
+        <activity android:name=".FineArtsActivity" />
+        <activity android:name=".LiteratureActivity" />
+        <activity android:name=".LogisticActivity" />
+        <activity android:name=".PhotographActivity" />
+        <activity android:name=".PublicrelarionActivity" />
+        <activity android:name=".ReportActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

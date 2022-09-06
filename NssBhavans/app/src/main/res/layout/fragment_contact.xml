@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ContactFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="567dp"
+                android:layout_marginTop="23dp"
+                android:background="@drawable/profilebg"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="2dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:text="BVC NSS UNIT"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_height="2dp">
+
+                    </TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/logo">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="13dp"
+                            android:text="Meena Rani "
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="35dp"
+                            android:text=" (Committe Member)"
+                            android:textAlignment="textStart"
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="59dp"
+                            android:textColor="@color/purple_700"
+                            android:gravity="center_horizontal"
+                            android:text="+91 9491124705"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="79dp"
+                            android:textColor="#1E88E5"
+                            android:gravity="center_horizontal"
+                            android:text="nssbhavans@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="5dp"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/logo">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="13dp"
+                            android:text="P. Srinivasa  "
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="35dp"
+                            android:text=" (Programme Officer)"
+                            android:textAlignment="textStart"
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="59dp"
+                            android:textColor="@color/purple_700"
+                            android:gravity="center_horizontal"
+                            android:text="+91 9700186966"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="79dp"
+                            android:textColor="#1E88E5"
+                            android:gravity="center_horizontal"
+                            android:text="nssbhavans@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_height="2dp">
+
+                    </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/logo">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="13dp"
+                    android:text="M. Ramakrishna "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    tools:ignore="RtlCompat">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="35dp"
+                    android:text=" (Regional Director)"
+                    android:textAlignment="textStart"
+                    android:textColor="#00695C"
+                    android:textSize="18dp"
+                    tools:ignore="RtlCompat">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="59dp"
+                    android:textColor="@color/purple_700"
+                    android:gravity="center_horizontal"
+                    android:text="040-24657369"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    tools:ignore="RtlCompat">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="79dp"
+                    android:textColor="#1E88E5"
+                    android:gravity="center_horizontal"
+                    android:text="nssrchyd040@gmail.com"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    tools:ignore="RtlCompat">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+<TextView
+    android:layout_width="match_parent"
+    android:background="#6BDFD6D6"
+    android:layout_marginTop="15dp"
+    android:layout_height="2dp">
+
+</TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:text="PS/Secretary Dealing with NSS"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_height="2dp">
+
+                    </TextView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="5dp"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/logo">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="13dp"
+                            android:text="Shri Sandeep Sultaniya "
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="35dp"
+                            android:text=" (I.A.S.FAC)"
+                            android:textAlignment="textStart"
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="59dp"
+                            android:textColor="@color/purple_700"
+                            android:gravity="center_horizontal"
+                            android:text="040-2345987"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="79dp"
+                            android:textColor="#1E88E5"
+                            android:gravity="center_horizontal"
+                            android:text="splcs-edu@telangana.gov.in"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="2dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="State NSS Officer"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_height="2dp">
+
+                    </TextView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="5dp"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/logo">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="13dp"
+                            android:text="Shri Navin Mittal "
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="35dp"
+                            android:text=" (I.A.S)"
+                            android:textAlignment="textStart"
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="59dp"
+                            android:textColor="@color/purple_700"
+                            android:gravity="center_horizontal"
+                            android:text="040-24745021"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="79dp"
+                            android:textColor="#1E88E5"
+                            android:gravity="center_horizontal"
+                            android:text="navinmittal.ias@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="2dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Programme Coordinator"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="(University Level)"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#4E4848"
+                        android:textSize="18dp"
+                        android:gravity="center_horizontal">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="#6BDFD6D6"
+                        android:layout_height="2dp">
+                    </TextView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="5dp"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/logo">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="13dp"
+                            android:text="Dr.Narayana "
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="35dp"
+                            android:text=" (Kakatiya University)"
+                            android:textAlignment="textStart"
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="59dp"
+                            android:textColor="@color/purple_700"
+                            android:gravity="center_horizontal"
+                            android:text="+91 9505681668"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="79dp"
+                            android:textColor="#1E88E5"
+                            android:gravity="center_horizontal"
+                            android:text="nssku1976@gmail.com"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/logo">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="13dp"
+                            android:text="Dr.Saveen Souda "
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="35dp"
+                            android:text=" (Osmania University)"
+                            android:textAlignment="textStart"
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="59dp"
+                            android:textColor="@color/purple_700"
+                            android:gravity="center_horizontal"
+                            android:text="040-27098394"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginLeft="120dp"
+                            android:layout_marginTop="79dp"
+                            android:textColor="#1E88E5"
+                            android:gravity="center_horizontal"
+                            android:text="nssouhyd@yahoo.com"
+                            android:textAlignment="textStart"
+                            android:textSize="15dp"
+                            tools:ignore="RtlCompat">
+
+                        </TextView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+                </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nss Bhavans</string>
+    <string name="event">envent</string>
+    <string name="attendance">attendance</string>
+    <string name="profile">profile</string>
+    <string name="departments">departments</string>
+    <string name="gallery">gallery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="finearts">It is a form of decorative art or applied art, which also serves some practical function The background decorations required for an event are done under the department An individual\'s creative thinking is potrayed in the form of an art</string>
+    <string name="literature">The literature of NSS Literature opens up a world of inspiration and creativity, while also developing skills that are essential for today\'s global environment. The department includes literary activities and Nss magazine The magazine\'s content is purely related to Nss and service</string>
+    <string name="logists">The department includes in planning, implementing and Organising for a event. Being in the department helps in building the individuals strength and developing a sense of Hardwork They share their views in planning , implementing and organise very effectively The volunteers engage completely in material handling</string>
+    <string name="photography">The department photographers cover the event and capture every moment of NSS The photography is a process of recording an image Photographs of different moments, locations, and service oriented are captured and the department is also engaged in vedio making. Volunteers use GPS Map Camera for the activities to get watermark details on the images they clicked in the app.</string>
+    <string name="pr">Public relations is a strategic communication process that builds mutually beneficial relationships between the society and the individual. They ensure people\'s participation in the successful implementation of different activities and events. Engaging with the society develops an individual\'s communication skills and teaches being interactive.</string>
+    <string name="report">Report writing is a formal style of writing elaborately on a topic. A report is a written account of events that has been observed, and done It is a systematic and well-organized presentation of facts of an event that are conducted by the Nss unit A report is prepared after each event, describing the event in a positive voice</string>
+    <string name="sport">The role of the department is to promote volunteers for achieving excellence in various competitive events at the national and international levels. They undertake the responsibility of an individuals fitness and also include training of parade and drill</string>
+    <string name="contacts">Contacts</string>
+    <string name="events" />
+    <string name="camp">Camp</string>
+    <string name="drive">Drive</string>
+    <string name="rally">Rally</string>
+</resources>

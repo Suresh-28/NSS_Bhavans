@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="alert" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">#8C9EFF</item>
+
+<item name="borderRound"
+    >15dp</item>
+    </style>
+    
+</resources>
